@@ -1,0 +1,45 @@
+body {
+    background-image: url("/pics/login-body-background.png");
+}
+
+.main-form {
+    margin-left: 37.44%;
+    margin-top: 17.66%;
+    padding: 1.66%;
+    padding-bottom: 1.66%;
+    width: 26.66%;
+    box-shadow: 0 0 5px RGBA(0, 0, 0, 0.5);
+    background-image: url("/pics/login-window-background.png");
+}
+
+.password-field {
+    margin-top: 1.66%;
+}
+
+#login-button {
+    margin-top: 3.66%;
+    margin-right: 8%;
+    width: 55%;
+}
+
+#registration-button {
+    margin-top: 3.66%;
+    width: 35%;
+}
+
+#messages {
+    margin-top: 5%;
+    margin-left: 9%;
+    font-size: 150%;
+    font-weight: bold;
+    display: none;
+}
+
+.wrong-data {
+    font-size: 146%;
+    color: red;
+    margin-left: 10%;
+    margin-top: 6.666%;
+    margin-bottom: 0%;
+}
+

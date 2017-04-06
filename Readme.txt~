@@ -1,0 +1,8 @@
+Requirements:
+Postgresql 9.4
+PHP 5.5
+
+You must set up your database. You can find SQL queries in file "dbcreation.sql".
+Then you must set up connection variables in dblp/tools/dbConnection.php.
+Registration on site is quite easy, but you need grant admin rights to user by
+SQL query ('changeUserRights.sql'): it was made for better safety. 
