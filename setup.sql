@@ -29,4 +29,4 @@ CREATE TABLE users(email VARCHAR(50) UNIQUE NOT NULL, password VARCHAR(255) NOT 
 
 CREATE INDEX authors_index ON authors (name);
 CREATE INDEX articles_index ON articles (title);
-CREATE INDEX keywords_index ON keywords (keyword);
+CREATE INDEX keywords_index ON keywords (word);
